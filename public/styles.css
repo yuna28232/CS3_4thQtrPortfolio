@@ -1,0 +1,71 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../assets/p.gif);
+    background-color: black;
+    background-repeat: repeat;
+    color: azure;
+}
+
+h2, h3{
+    text-align: center;
+    color: #2f307c;
+    font-size: 23px;
+}
+
+.container{
+    width:350px;
+    margin:auto;
+    margin-top:50px;
+    background:rgb(155, 167, 244);
+    padding: 50px;
+    border-radius:8px;
+    box-shadow:0 0 40px rgba(64, 79, 236, 0.729);
+}
+
+input, select {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0,0,0,1);
+    color: aliceblue;
+    width: 320px;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+#genre{
+    width: 340px;
+    border-width: 2px;
+    border-style: inset;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    width:100%;
+    padding:10px;
+    background:#ccd1ff;
+    border-style:dashed;
+    border-color: #61629c8d;
+    color:rgb(0, 0, 0);
+    border-radius: 1px;
+    border-width:2px;
+    cursor:pointer;
+}
+
+.star{
+    font-size: 35px;
+    cursor:pointer;
+    color:rgb(3, 3, 3);
+}
+
+.selected{
+    color:rgb(255, 241, 160);
+}
+
+.movie{
+    background:#000000;
+    font-family: 'Courier New', Courier, monospace;
+    padding:8px;
+    margin-top:5px;
+    border-radius:5px;
+    color: #ccd1ff;
+}
