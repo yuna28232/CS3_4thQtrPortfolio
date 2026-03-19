@@ -7,6 +7,8 @@ body{
 }
 
 h2, h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
     text-align: center;
     color: #2f307c;
     font-size: 23px;
@@ -38,17 +40,31 @@ input, select {
     border-style: inset;
 }
 
-button{
+.add{
     font-family: 'Courier New', Courier, monospace;
     width:100%;
     padding:10px;
     background:#ccd1ff;
     border-style:dashed;
     border-color: #61629c8d;
-    color:rgb(0, 0, 0);
-    border-radius: 1px;
+    font-size: 18px;
+    color: #2f307c;
+    border-radius: 15px;
     border-width:2px;
     cursor:pointer;
+}
+
+.dlt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    border-style: none;
+    background:#1f1f27;
+    padding: 8px;
+    border-radius: 7px;
+    color: #ccd1ff;
+    cursor:pointer;
+    font-size: 14px;
+
 }
 
 .star{
