@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="author" content="<Yuna Lee/Kleo Foronda>" />
+  <meta name="revised" content="<04/05>" />
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .header, .footer {
+      background: lightblue;
+      padding: 10px;
+    }
+    .footer {
+        position: fixed; bottom: 0; width: 100%;
+       opacity: 0.5;
+    }
+    .sidebar {
+        position: relative; top: 20x; left: 20px;
+      background: lightgreen;
+      width: 150px;
+      height: 200px;
+    }
+    .content {
+     position: absolute; top: 66px; left: 200px;
+      background: lightyellow;
+      width: 300px;
+      height: 200px;
+        z-index: 1;
+
+
+    }
+    .notice {
+    position: absolute;
+     top: 5px; left: 300px;
+
+    background: orange;
+    padding: 10px;
+    z-index: 2;
+}
+  </style>
+</head>
+<body>
+  <div class="header">Header</div>
+  <div class="sidebar">Sidebar</div>
+  <div class="content">
+    <div class="notice">Notice!</div>
+    Main Content</div>
+  <div class="footer">Footer</div>
+</body>
+</html>
